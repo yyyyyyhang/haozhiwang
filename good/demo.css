@@ -1,0 +1,312 @@
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+body {
+    overflow-x: hidden;
+    background: #F4F6F8;
+}
+
+.carousel-control {
+    top: 45%;
+    font-size: 60px !important;
+}
+
+.header {
+    height: 80px;
+    padding: 0 30px;
+    background: transparent;
+    background: #ffffff;
+}
+
+.header .navbar-header {
+    /*margin-top: -17px;*/
+
+}
+
+.header .navbar-header a {
+    padding: 0;
+
+}
+
+.header a {
+    line-height: 80px !important;
+    padding: 0px 10px !important;
+
+}
+
+.header form {
+    margin-top: 25px;
+    padding: 0px;
+}
+
+.header form input {
+    border: 0px;
+    border-right: 1px solid #cccccc;
+    border-left: 1px solid #CCCCCC;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0px;
+}
+
+.header form button {
+    width: 50px;
+    height: 34px;
+    border: 0px;
+    background: url("img/good_05.png") no-repeat center;
+}
+
+.header_right a {
+    color: #15C288 !important;
+    font-weight: bolder;
+}
+
+.header .header_list {
+    background: #ffffff;
+}
+
+@media screen  and (max-width: 770px) {
+    .navbar-brand {
+        display: block;
+        float: none !important;
+    }
+
+    #logo {
+        display: block;
+        margin: 0 auto;
+        height: 80px;
+    }
+
+    button {
+        margin-top: 22px !important;
+    }
+}
+
+.banner {
+    width: 100%;
+    height: 368px;
+    background: url("img/good_11.png") no-repeat center;
+    display: block;
+
+}
+
+.body_right {
+    /*padding: 0;*/
+
+}
+
+.xq {
+    margin-top: 20px;
+}
+
+.xq1 {
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+
+}
+
+/*.xq1:after {
+    display: block;
+    clear: both;
+    content: "";
+}*/
+
+.Pic {
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+.Pic img {
+    width: 100%;
+}
+
+.ti_lf {
+    padding: 3px;
+    background: grey;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    margin: 5px;
+}
+
+.ti_rg {
+    font-size: 16px;
+    margin: 5px 0 0 0;
+}
+
+.txt > p {
+    margin: 5px 0;
+    color: grey;
+}
+
+.gs {
+    padding-left: 30px;
+    background: url("img/good_32.png") no-repeat left center;
+}
+
+.money {
+    font-weight: bolder;
+    color: #15C288;
+}
+
+.row-title {
+    margin-top: 20px;
+    line-height: 50px;
+    border: 1px solid #CCCCCC;
+    border-bottom: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+/*.list:after {
+    display: block;
+    clear: both;
+    content: "";
+}*/
+
+.list {
+    padding: 20px 0;
+    background: #fff;
+    margin-top: 20px;
+
+}
+
+.list > li {
+    width: 25%;
+}
+
+.list2 {
+    margin-top: 20px;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.list2 > li {
+    text-align: left;
+}
+
+i {
+    font-style: normal;
+    font-weight: bolder;
+    color: grey;
+}
+
+.slh {
+    border-left: 1px solid #CCCCCC;
+}
+
+.list1 {
+    border: 1px solid #CCCCCC;
+    text-align: center;
+    line-height: 40px;
+}
+
+.list_text {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.textarea {
+    margin: 10px 0;
+    height: 100px;
+}
+
+/*.body:after {
+    display: block;
+    clear: both;
+    content: '';
+}*/
+
+.footer {
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+/*
+.footer:after {
+    display: block;
+    clear: both;
+    content: "";
+}*/
+
+.img {
+    text-align: center;
+}
+
+.footer {
+    background: #515151;
+}
+
+.footer-le1 {
+    text-align: center;
+}
+
+.footer-le2 {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.footer-le2 p:nth-of-type(2) {
+    font-size: 12px;
+    color: #999999;
+}
+
+.footer-le2 p:nth-of-type(1) {
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-le2 p:nth-of-type(1) span {
+    padding: 0 5px 0 0;
+    border-right: 1px solid #fff;
+}
+
+.footer-le3 {
+    text-align: center;
+}
+
+.footer-le3 img {
+    width: 6%;
+}
+
+.footer-le3 p span {
+    color: #fff;
+}
+
+.footer-t {
+    padding: 5px 0;
+}
+
+.bottom {
+    border-top: 1px solid #5C5C5C;
+    padding: 20px 0;
+}
+
+.btm-ul li {
+    font-size: 12px;
+    padding: 0 16px;
+    color: #999999;
+    border-right: 1px solid #999999;
+    float: left;
+}
+
+.btm-ul li:last-child {
+    border-right: none;
+}
+
+.btm-ul li:first-child {
+    padding: 0 16px 0 0;
+}
+
+.pp {
+    color: #999999;
+    margin-top: 10px;
+}

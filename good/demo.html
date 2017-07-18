@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="demo.css">
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-default  navbar-static-top header">
+    <div class="navbar-header">
+        <!-- data-target="#myNavbar"：定义要折叠的对象,目标 -->
+        <button class="navbar-toggle collapsed pull-left"
+                data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand"><img src="img/logo.png" alt="" id="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="header_list nav navbar-nav">
+            <li><a href="#">学习中心</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                   aria-expanded="false">课程 <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">One more separated link</a></li>
+                </ul>
+            </li>
+            <li><a href="#">班级</a></li>
+            <li><a href="#">小组</a></li>
+        </ul>
+        <ul class="header_list nav navbar-nav navbar-right header_right">
+            <form class="navbar-form navbar-left hidden-sm hidden-xs">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="输入要查找的内容">
+                </div>
+                <button type="submit" class="btn btn-default"></button>
+            </form>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">好知App</a></li>
+        </ul>
+    </div>
+
+</nav>
+
+<div class="content body clearfix">
+    <!--banner-->
+    <div class="row">
+        <div id="myCarousel" class="carousel slide">
+
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="img/good_11.png" alt="First slide">
+                    <div class="carousel-caption">标题 1</div>
+                </div>
+                <div class="item">
+                    <img src="img/good_11.png" alt="Second slide">
+                    <div class="carousel-caption">标题 2</div>
+                </div>
+                <div class="item">
+                    <img src="img/good_11.png" alt="Third slide">
+                    <div class="carousel-caption">标题 3</div>
+                </div>
+            </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="carousel-control left glyphicon glyphicon-chevron-left fx" href="#myCarousel"
+               data-slide="prev">
+            </a>
+            <a class="carousel-control right glyphicon glyphicon-chevron-right fx" href="#myCarousel"
+               data-slide="next">
+            </a>
+        </div>
+    </div>
+
+
+    <div class="row xq col-lg-offset-1 col-lg-10 col-md-12">
+
+        <!--右半部分-->
+        <div class=" body_right col-md-3 col-lg-3 pull-right ">
+            <ul class="list clearfix">
+                <li class="pull-left">
+                    <b>4</b>
+                    <p>在教</p>
+                </li>
+                <li class="pull-left">
+                    <b>1</b>
+                    <p>课程</p>
+                </li>
+                <li class="pull-left">
+                    <b>0</b>
+                    <p>笔记</p>
+                </li>
+                <li class="pull-left">
+                    <b>0</b>
+                    <p>回答</p>
+                </li>
+            </ul>
+
+            <ul class="list2">
+                <li>
+                    <i>昵称：</i>
+                    <span>北京智能社</span>
+                </li>
+                <li>
+                    <i>等级：</i>
+                    <span>8</span>
+                </li>
+                <li>
+                    <i>来自：</i>
+                </li>
+                <li>
+                    <i>简介：</i>
+                    <span>智能社是北京梵语悦川网络科技有限公司旗下品牌，主要买对个大专院校应届毕业生并想从事钱端端开发工作的年轻人，授课方式一面授+在线视频为主，依托自由在线社区完成远程</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-lg-9 col-md-8 xq1 clearfix">
+            <div class="col-md-12 row-title">
+                <span class="col-md-11">在线课堂</span>
+                <span class="col-md-1 pull-right slh">……</span>
+            </div>
+            <div class="col-md-12 list1">
+                Ta还为加入任何班级
+            </div>
+        </div>
+        <div class="  col-lg-9 col-md-8 xq1 clearfix">
+            <div class="col-md-12 row-title">
+                <span class="col-md-11">在线课堂</span>
+                <span class="col-md-1 pull-right slh">……</span>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Pic">
+                <img src="img/good_14.png" alt="">
+                <div class="txt">
+                    <div class="title clearfix">
+                        <span class="pull-left ti_lf col-md-3 col-md-offset-1">IT互联网</span>
+                        <span class="pull-left ti_rg col-md-8">智能社：文字文字文字文字文字我我</span>
+                    </div>
+                    <p>161浏览/17学员/0评分</p>
+                    <span class="gs">北京智能社</span>
+                    <span class="money pull-right">免费</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Pic">
+                <img src="img/good_14.png" alt="">
+                <div class="txt">
+                    <div class="title">
+                        <span class="pull-left ti_lf col-md-3 col-md-offset-1">IT互联网</span>
+                        <span class="pull-left ti_rg col-md-8">智能社：文字文字文字文字文字我我</span>
+                    </div>
+                    <p>161浏览/17学员/0评分</p>
+                    <span class="gs">北京智能社</span>
+                    <span class="money pull-right">免费</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Pic">
+                <img src="img/good_14.png" alt="">
+                <div class="txt">
+                    <div class="title">
+                        <span class="pull-left ti_lf col-md-3 col-md-offset-1">IT互联网</span>
+                        <span class="pull-left ti_rg col-md-8">智能社：文字文字文字文字文字我我</span>
+                    </div>
+                    <p>161浏览/17学员/0评分</p>
+                    <span class="gs">北京智能社</span>
+                    <span class="money pull-right">免费</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Pic">
+                <img src="img/good_14.png" alt="">
+                <div class="txt">
+                    <div class="title">
+                        <span class="pull-left ti_lf col-md-3 col-md-offset-1">IT互联网</span>
+                        <span class="pull-left ti_rg col-md-8">智能社：文字文字文字文字文字我我</span>
+                    </div>
+                    <p>161浏览/17学员/0评分</p>
+                    <span class="gs">北京智能社</span>
+                    <span class="money pull-right">免费</span>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Pic">
+                <img src="img/good_14.png" alt="">
+                <div class="txt">
+                    <div class="title">
+                        <span class="pull-left ti_lf col-md-3 col-md-offset-1">IT互联网</span>
+                        <span class="pull-left ti_rg col-md-8">智能社：文字文字文字文字文字我我</span>
+                    </div>
+                    <p>161浏览/17学员/0评分</p>
+                    <span class="gs">北京智能社</span>
+                    <span class="money pull-right">免费</span>
+                </div>
+            </div>
+        </div>
+        <!--笔记-->
+        <div class="col-lg-9 col-md-8 xq1 clearfix">
+            <div class="col-md-12 row-title">
+                <span class="col-md-11">笔记</span>
+                <span class="col-md-1 pull-right slh">……</span>
+            </div>
+            <div class="col-md-12 list1">
+                Ta还为没有公开笔记
+            </div>
+        </div>
+        <!--留言-->
+        <div class="col-lg-9 col-md-8 xq1 clearfix">
+            <div class="col-md-12 row-title">
+                <span class="col-md-11">留言</span>
+                <span class="col-md-1 pull-right slh">……</span>
+            </div>
+            <div class="col-md-12 list1 list_text">
+                <textarea name="" id="" cols="30" rows="10" class="textarea col-md-12 col-lg-12 col-ms-12 col-xs-12">
+
+                </textarea>
+
+                <button class="btn btn-success pull-right">留言</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</div>
+
+
+
+<div class="footer clearfix">
+    <div class="container">
+        <div class="row footer-t">
+            <div class="footer-le1 col-lg-4 col-md-4">
+                <img src="img/good_43.png"/>
+            </div>
+            <div class="footer-le2  col-lg-4 col-md-4">
+                <p>
+                    <span>关于我们</span>
+                    <span>加入我们</span>
+                    <span>合作申请</span>
+                    <span>意见反馈</span>
+                </p>
+                <p>浙ICP被13006825号-3 浙B2-10160872</p>
+            </div>
+            <div class="footer-le3  col-lg-4 col-md-4">
+                <p>
+                    <span>关注我们:</span>
+                    <img src="img/good_46.png" alt=""/>
+                    <img src="img/good_49.png" alt=""/>
+                    <img src="img/good_51.png" alt=""/>
+                    <img src="img/good_53.png" alt=""/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+            <ul class="btm-ul clearfix">
+                <li>友情链接:EDuSoho开源网络课堂</li>
+                <li>气球学院</li>
+                <li>360网址导航</li>
+                <li>hao124</li>
+                <li>绿色网</li>
+                <li>站长之家</li>
+                <li>新客网</li>
+                <li>踏浪100</li>
+                <li>麦子学院</li>
+                <li>友博为峰网校</li>
+            </ul>
+            <p class="pp">Powered by EduSohov6.17.2©2014-2017 好知网</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
